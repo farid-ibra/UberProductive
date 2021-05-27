@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/goalTracker"
+                android:icon="@drawable/ic_baseline_track_changes_24"
+                android:title="Goal tracker" />
+            <item
+                android:id="@+id/timer"
+                android:icon="@drawable/ic_baseline_timer_24"
+                android:title="Pomodoro Timer" />
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_baseline_note_add_24"
+                android:title="Notes" />
+            <item
+                android:id="@+id/login"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Login" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_keyboard_return_24"
+                android:title="Logout" />
+        </menu>
+
+    </item>
+
+</menu>

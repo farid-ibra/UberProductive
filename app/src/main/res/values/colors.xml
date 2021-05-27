@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6202ee</color>
+    <color name="colorPrimaryDark">#3700b3</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color2">#d7afff</color>
+    <color name="cyan">#9edfff</color>
+    <color name="gray">#e0e0e0</color>
+    <color name="red">#DB4848</color>
+    <color name="blue">#8C9EFF</color>
+    <color name="lime">#a0ef9a</color>
+    <color name="pomodoroRed">#AC2508</color>
+    <color name="pomodoroGreen">#27A705</color>
+    <color name="white">#FFFFFF</color>
+</resources>
