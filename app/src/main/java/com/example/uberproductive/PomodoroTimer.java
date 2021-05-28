@@ -28,7 +28,7 @@ public class PomodoroTimer extends AppCompatActivity {
     private Button wButtonReset;
     private CountDownTimer wCountDownTimer;
     private boolean wTimerRunning;
-    public static long wTimeLeftInMillis = TIME_IN_MILLISECONDS;
+    private long wTimeLeftInMillis = TIME_IN_MILLISECONDS;
     RelativeLayout currentLayout;
 
     @Override
@@ -117,7 +117,7 @@ public class PomodoroTimer extends AppCompatActivity {
         wButtonStartPause.setText("Start");
         wButtonReset.setVisibility(View.VISIBLE);
     }
-    public void resetTime() {
+    private void resetTime() {
         wTimeLeftInMillis = TIME_IN_MILLISECONDS;
         updateTime();
         wButtonReset.setVisibility(View.INVISIBLE);
@@ -129,6 +129,7 @@ public class PomodoroTimer extends AppCompatActivity {
                 (int) (wTimeLeftInMillis / 1000) / 60, (int) (wTimeLeftInMillis / 1000) % 60); //minutes and seconds
         wTextViewCountDown.setText(timeLeft);
     }
+
     @Override
     public void onBackPressed() {
         super.onBackPressed();
